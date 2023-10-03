@@ -1,0 +1,31 @@
+.coinsTable {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.coin-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.search-title {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.search-input {
+    width: 800px;
+    height: 30px;
+    border-radius: 7px;
+    border-style: none;
+    border: 1px solid #0d1b2a;
+    background-color: #778da9;
+    padding-left: 10px;
+}
+
+.search-input::placeholder {
+    color: #e0e1dd;
+    font-size: larger;
+}

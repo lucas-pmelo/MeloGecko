@@ -1,0 +1,42 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    background-color: #778da9;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.profileTitle {
+    font-size: 2.5rem;
+}
+
+.profileImage {
+    border-radius: 22rem;
+    width: 8rem;
+    margin-bottom: 2rem;
+}
+
+.profileWelcome {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+.logout {
+    width: 100%;
+    background-color: #0d1b2a;
+}
+
+.delete {
+    width: 100%;
+    margin-top: 1rem;
+    background-color: #0d1b2a;
+}
+
+.profileData {
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+}

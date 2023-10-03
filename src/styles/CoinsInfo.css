@@ -1,0 +1,50 @@
+.coinsInfo {
+    margin-top: 10rem;
+}
+
+.infoTitle {
+    margin-right: auto;
+    margin-left: 5rem;
+}
+
+.infoTextContainer {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    background-color: #415a77;
+    border-radius: 2rem;
+    padding: 2rem;
+    font-size: large;
+}
+
+.infoText::after {
+    content: "";
+    width: 80%;
+    height: 1px;
+    background-color: #e0e1dd60;
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infoText:nth-last-child(1)::after {
+    display: none;
+}
+
+.infoText:nth-last-child(1) {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.infoText:nth-child(1) {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.infoBold {
+    font-size: 1.5rem;
+}

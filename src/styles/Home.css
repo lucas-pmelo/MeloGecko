@@ -1,0 +1,58 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.homeTitle {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    margin-right: auto;
+    margin-left: 10rem;
+    background-color: #415a77;
+    width: 70%;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.homeLogo {
+    border-radius: 22rem;
+    width: 5rem;
+}
+
+.homeCoin {
+    display: flex;
+    flex-direction: column;
+}
+
+.homeInfo {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 10rem;
+    margin-right: auto;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    background-color: #415a77;
+    width: 70%;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.homeCrypto {
+    width: 20rem;
+    border-radius: 2rem;
+    display: inline-block;
+}
+
+.homeText {
+    margin-left: 22rem;
+    text-align: justify;
+    margin-right: 2rem;
+}
+
+.wrap {
+    float: left;
+}
